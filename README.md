@@ -14,9 +14,9 @@ Funcionalidade: Validações no Login
 
     Exemplos:
       | Usuario      | Senha  |
-      | usuario      | 12346 |
+      | username     | 12346 |
       
 
   Cenário: Exibe mensagem de succeso quando utilizado credenciais válidas
-    Quando eu faço o login como o usuário 'Administrator'
-    Então o app exibe alerta de login efetuado com sucesso
+    Quando eu faço o login como o usuário 'username'
+    Login efetuado com sucesso
